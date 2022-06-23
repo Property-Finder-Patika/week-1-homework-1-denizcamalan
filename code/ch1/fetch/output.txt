@@ -1,0 +1,2 @@
+execution fetching time : 0.15 seconds
+execution fetching time : 0.13 seconds

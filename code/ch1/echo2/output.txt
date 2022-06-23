@@ -1,0 +1,4 @@
+./echo2 this
+./echo2 is
+./echo2 excercise
+./echo2 1.2

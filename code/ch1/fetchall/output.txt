@@ -1,0 +1,4 @@
+0.20s   202985  https://www.trendyol.com/0.20s elapsed
+0.15s   202984  https://www.trendyol.com/0.15s elapsed
+0.34s    33248  https://alexa.com/0.34s elapsed
+

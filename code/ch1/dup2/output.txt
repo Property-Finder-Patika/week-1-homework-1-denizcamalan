@@ -1,0 +1,8 @@
+3	g	 dup1.txt dup2.txt
+4	34	 dup1.txt dup2.txt dup3.txt
+3	77	 dup1.txt dup2.txt dup3.txt
+4	ff	 dup1.txt dup2.txt dup3.txt
+3	88	 dup1.txt dup2.txt dup3.txt
+2	66	 dup1.txt dup3.txt
+3	90	 dup1.txt dup2.txt dup3.txt
+3	uu	 dup1.txt dup2.txt dup3.txt
