@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"PropertyFinder-Patika/week-1-homework-1-denizcamalan/code/ch2/tempconv"
+	"code/ch2/tempconv"
 )
 
 func main() {
