@@ -91,7 +91,6 @@ the values of cer tain variables distributed throughout the program.
 
 - Two types, Celsius and Fahrenheit, for the two units of temperature. Even though both have the same underlying typ e, float64, they are not the same type, so they cannot be compared or combined in arithmetic expressions.
 
-
 ## Scope
 
 - If a name is declared in both an outer block and an inner blo ck, the inner declarat ion will be found first.
@@ -102,6 +101,10 @@ the values of cer tain variables distributed throughout the program.
 - Exercise 2.2
     [Code Example and Output text file](./code/ch2/meterconv)
 - Exercise 2.3
+    [Output Picture](./code/pics/popcountVSlooppopcount.png)
+- Exercise 2.4
+- Exercise 2.5
+
 
 # Chapter3
 
@@ -115,7 +118,25 @@ the values of cer tain variables distributed throughout the program.
 # Exercises
 - Exercise 3.1
     [Code Example and Output text file](./code/ch3/surface)
-
+- Exercise 3.2
+    [Output Picture](./code/pics/web_mandelbrot.png)
+- Exercise 3.3
+    [Output Picture](./code/pics/web_colored.png)
+- Exercise 3.4
+- Exercise 3.5
+- Exercise 3.6
+- Exercise 3.7
+- Exercise 3.8
+- Exercise 3.9
+- Exercise 3.10
+    [Code Example and Output text file](./code/ch3/printints)
+- Exercise 3.11
+    [Code Example and Output text file](./code/ch3/printints)
+    [Output Picture](./code/pics/floating_point.png)
+- Exercise 3.12
+    [Code Example and Output text file](./code/ch3/printints)
+- Exercise 3.13
+- Exercise 3.14
 
 ## Documentation
 
