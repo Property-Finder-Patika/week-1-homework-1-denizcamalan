@@ -38,11 +38,11 @@ Golang is not a functional language but has a lot of features that enable to tur
 
 ## CommandLine Arguments
 
-- os.Args is a slice of str ings.
+- os.Args is a slice of strings.
 
 ## Lecture 1 Codes
 
-[Lecture Codes](./code/ch1/greering)
+[Lecture Codes](./code/ch1/greeting)
 
 # Exercises
 - Exercise 1.1
