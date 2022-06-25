@@ -88,7 +88,7 @@ the values of cer tain variables distributed throughout the program.
 
 ## Scope
 
-- If a name is declared in both an outer block and an inner blo ck, the inner declarat ion will be found first.
+- If a name is declared in both an outer block and an inner block, the inner declaration will be found first.
 
 # Exercises
 - Exercise 2.1
