@@ -40,26 +40,23 @@ Golang is not a functional language but has a lot of features that enable to tur
 
 - os.Args is a slice of str ings.
 
-    [Code Example](./code/ch1/greeting/argument)
+## Lecture 1 Codes
+
+[Lecture Codes](./code/ch1/greering)
+
 # Exercises
 - Exercise 1.1
     [Code Example and Output text file](./code/ch1/echo)
 - Exercise 1.2
     [Code Example and Output text file](./code/ch1/echo2)
 - Exercise 1.3
-    [Code Example and Output text file](./code/ch1/echo3)
-- 
-    [Output Picture](./code/pics/echo3.png) 
+    [Code Example and Output text file](./code/ch1/echo3)   &   [Output Picture](./code/pics/echo3.png) 
 - Excercise 1.4
     [Code Example and Output text file](./code/ch1/dup2)
 - Excercise 1.5
-    [Code Example and Output text file](./code/ch1/lissajous)
-- 
-    [Output Picture](./code/pics/lissajouss_green.png)
+    [Code Example and Output text file](./code/ch1/lissajous)   &    [Output Picture](./code/pics/lissajouss_green.png)
 - Excercise 1.6
-    [Code Example and Output text file](./code/ch1/lissajous)
-- 
-    [Output Picture](./code/pics/changing_img.png)
+    [Code Example and Output text file](./code/ch1/lissajous)   &    [Output Picture](./code/pics/changing_img.png)
 - Excercise 1.7 & Excercise 1.8 & Excercise 1.9
     [Code Example](./code/ch1/fetch)
 - Ecercise 1.10
@@ -67,9 +64,7 @@ Golang is not a functional language but has a lot of features that enable to tur
 - Ecercise 1.11
     [Code Example and Output text file](./code/ch1/fetchall)
 - Ecercise 1.12
-    [Code Example](./code/ch1/fetch)
-- 
-    [Output Picture](./code/pics/cycles=20.png)
+    [Code Example](./code/ch1/fetch)    &   [Output Picture](./code/pics/cycles=20.png)
 # Chapter2
 
 ## Names
@@ -102,13 +97,16 @@ the values of cer tain variables distributed throughout the program.
     [Code Example and Output text file](./code/ch2/meterconv)
 - Exercise 2.3
     [Output Picture](./code/pics/popcountVSlooppopcount.png)
-- Exercise 2.4
-- Exercise 2.5
-
 
 # Chapter3
 
 ## Integers
+        & bitwise AND
+        | bitwise OR
+        ^ bitwise XOR
+        &^ bit cle ar (AND NOT)
+        << lef t shif t
+        >> right shif t
 ## Floating-Point Numbers
 ## Complex Numbers
 ## Booleans
@@ -117,26 +115,21 @@ the values of cer tain variables distributed throughout the program.
 
 # Exercises
 - Exercise 3.1
-    [Code Example and Output text file](./code/ch3/surface)
+    [Code Example and Output text file](./code/ch3/surface) &   [Output Picture](./code/ch3/surface/output1.png)
 - Exercise 3.2
-    [Output Picture](./code/pics/web_mandelbrot.png)
+    [Output Picture](./code/ch3/surface/output2.png)
 - Exercise 3.3
-    [Output Picture](./code/pics/web_colored.png)
-- Exercise 3.4
+    [Output Picture](./code/ch3/surface/output3.png)
 - Exercise 3.5
+    [Output Picture](./code/pics/web_mandelbrot.png)
 - Exercise 3.6
-- Exercise 3.7
-- Exercise 3.8
-- Exercise 3.9
+    [Output Picture](./code/pics/web_colored.png)
 - Exercise 3.10
     [Code Example and Output text file](./code/ch3/printints)
 - Exercise 3.11
-    [Code Example and Output text file](./code/ch3/printints)
-    [Output Picture](./code/pics/floating_point.png)
+    [Code Example and Output text file](./code/ch3/printints)   &   [Output Picture](./code/pics/floating_point.png)
 - Exercise 3.12
     [Code Example and Output text file](./code/ch3/printints)
-- Exercise 3.13
-- Exercise 3.14
 
 ## Documentation
 
