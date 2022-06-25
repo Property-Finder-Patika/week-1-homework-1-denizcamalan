@@ -97,9 +97,9 @@ the values of cer tain variables distributed throughout the program.
     [Code Example and Output text file](./code/ch2/meterconv)
 - Exercise 2.3
     [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcountVSlooppopcount.png)
-- Exercise 2.3
+- Exercise 2.4
     [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcount2.4.png)
-- Exercise 2.3
+- Exercise 2.5
     [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcount2.5.png)
 
 # Chapter3
