@@ -96,7 +96,11 @@ the values of cer tain variables distributed throughout the program.
 - Exercise 2.2
     [Code Example and Output text file](./code/ch2/meterconv)
 - Exercise 2.3
-    [Output Picture](./code/pics/popcountVSlooppopcount.png)
+    [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcountVSlooppopcount.png)
+- Exercise 2.3
+    [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcount2.4.png)
+- Exercise 2.3
+    [Code Example and Output text file](./code/ch2/popcount)   &   [Output Picture](./code/pics/popcount2.5.png)
 
 # Chapter3
 
@@ -120,6 +124,8 @@ the values of cer tain variables distributed throughout the program.
     [Output Picture](./code/ch3/surface/output2.png)
 - Exercise 3.3
     [Output Picture](./code/ch3/surface/output3.png)
+- Exercise 3.4
+    [Code Example and Output text file](./code/ch3/surface) &   [[Output Picture](./code/pics/surface_web.png)
 - Exercise 3.5
     [Output Picture](./code/pics/web_mandelbrot.png)
 - Exercise 3.6
