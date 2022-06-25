@@ -38,13 +38,27 @@ func main() {
 			if err != nil {
 				continue
 			}
-			output := fmt.Sprintf("<polygon points='%f,%f %f,%f %f,%f %f,%f' style='stroke: #f00'/>\n",
+			if i > int(dy)/2 && j > int(dy)/2 {
+				output := fmt.Sprintf("<polygon points='%f,%f %f,%f %f,%f %f,%f' style='stroke: #f00'/>\n",
 				ax, ay, bx, by, cx, cy, dx, dy)
 				output_file(output)
+			}else{
+				output := fmt.Sprintf("<polygon points='%f,%f %f,%f %f,%f %f,%f' style='stroke: blue'/>\n",
+				ax, ay, bx, by, cx, cy, dx, dy)
+				output_file(output)
+			}
 		}
 	}
 	output_file("</svg>")
+
+	// web section 
+	// http.HandleFunc("/", webHost)
+	// log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
+
+// func webHost(w http.ResponseWriter,r *http.Request){
+
+// }
 
 func corner(i, j int) (float64, float64, error) {
 	// Find point (x,y) at corner of cell (i,j).
@@ -54,6 +68,9 @@ func corner(i, j int) (float64, float64, error) {
 	// Compute surface height z.
 	z := f(x, y)
 
+	// Compute egglot
+	//z := eggplot(x, y)
+	
 	// check
 	if math.IsInf(z, 0) || math.IsNaN(z) {
 		return 0, 0, fmt.Errorf("invalid value")
@@ -63,6 +80,9 @@ func corner(i, j int) (float64, float64, error) {
 	sx := width/2 + (x-y)*cos30*xyscale
 	sy := height/2 + (x+y)*sin30*xyscale - z*zscale
 	return sx, sy, nil
+}
+func eggplot(x, y float64) float64 {
+    return (math.Sin(x) + math.Sin(y)) * 0.25
 }
 
 func f(x, y float64) float64 {

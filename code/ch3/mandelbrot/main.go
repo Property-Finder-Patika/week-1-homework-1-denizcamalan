@@ -1,3 +1,10 @@
+// Copyright © 2016 Alan A. A. Donovan & Brian W. Kernighan.
+// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+// See page 61.
+//!+
+
+// Mandelbrot emits a PNG image of the Mandelbrot fractal.
 package main
 
 import (
@@ -23,7 +30,7 @@ func main() {
 			x := float64(px)/width*(xmax-xmin) + xmin
 			z := complex(x, y)
 			// Image point (px, py) represents complex value z.
-			img.Set(px, py, exercise3_2(z))
+			img.Set(px, py, mandelbrot(z))
 		}
 	}
 
@@ -37,13 +44,13 @@ func main() {
 		return
 	}
 	/*
-			outfile, err := os.Create("output.png")
-		    if err != nil {
-		        // replace this with real error handling
-		        panic(err)
-		    }
-		    defer outfile.Close()
-			png.Encode(outfile, img) // NOTE: ignoring errors
+	outfile, err := os.Create("output.png")
+    if err != nil {
+        // replace this with real error handling
+        panic(err)
+    }
+    defer outfile.Close()
+	png.Encode(outfile, img) // NOTE: ignoring errors
 	*/
 }
 
@@ -55,10 +62,10 @@ func mandelbrot(z complex128) color.Color {
 	for n := uint8(0); n < iterations; n++ {
 		v = v*v + z
 		if cmplx.Abs(v) > 2 {
-			return color.RGBA{200 - contrast*n, 255 - contrast*n, 55 - contrast*n, 105 - contrast*n}
+			return color.RGBA{200 - contrast*n, 255 - contrast*n,55 - contrast*n,105 - contrast*n}
 		}
 	}
-	return color.YCbCr{255, 134, 55}
+	return color.YCbCr{255,134,55}
 }
 
 //!-
@@ -94,11 +101,4 @@ func newton(z complex128) color.Color {
 		}
 	}
 	return color.Black
-}
-
-func exercise3_2(z complex128) color.Color {
-	v := cmplx.Pow(2, cmplx.Sin(z)) + cmplx.Pow(2, cmplx.Cos(z))
-	blue := uint8(real(v)*128) + 127
-	red := uint8(imag(v)*128) + 127
-	return color.YCbCr{128, blue, red}
 }
